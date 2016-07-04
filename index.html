@@ -1,457 +1,850 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--[if IE]>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mart - HTML5 Resoponsive ecommerce template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/favicon.png">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
-    <title> Responsive Single Page Template : Design View</title>
-    <!--REQUIRED STYLE SHEETS-->
-    <!-- BOOTSTRAP CORE STYLE CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONTAWESOME STYLE CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-      <!-- VEGAS STYLE CSS -->
-    <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body >
-     <div class="navbar navbar-inverse navbar-fixed-top scrollclass" >
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">YOUR LOGO</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                     <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#clients-testimonial">TESTIMONIALS</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                     <li><a href="#social-section">SOCIAL</a></li>
-                    
-                </ul>
-            </div>
-           
-        </div>
-    </div>
-   
-    
-   
-    <!--HOME SECTION-->
-    <div class="container" id="home">
-        <div class="row text-center scrollclass">
-            <div class="col-md-12">
-                <span class="head-main">THE DESIGN VIEW </span>
-                <h3 class="head-last">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</h3>
-                <a href="#about" class="btn btn-primary btn-lg ">THIS TEMPLATE IS ALIVE</a> 
+    </head>
+    <body>
+
+        <!-- PRELOADER -->
+        <div id="preloader">
+            <div class="preloader-area">
+            	<div class="preloader-box">
+            		<div class="preloader"></div>
+            	</div>
             </div>
         </div>
-    </div>
-    <!--END HOME SECTION-->
 
-    <!--ABOUT SECTION-->
-    <section class="for-full-back color-bg-one" id="about">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>About Our Team</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h5>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                       
-                            
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="for-full-back color-white" id="about-team">
-        <div class="container">
-            <div class="row text-center g-pad-bottom">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h3>OUR TEAM MEMBERS</h3>
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.                          
-                    </h5>
-                </div>
 
-            </div>
-            <div class="row text-center g-pad-bottom">
-              
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="alert alert-danger">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Praesent suscipit sem vel ipsum elementum venenatis. 
-                            </div>
-                        <div class="team-member">
-                            <img src="assets/img/team/1.png" class="img-circle"    alt="">
-                            <h3><strong>ART DIRECTOR</strong></h3>
+        <section class="header-top-section">
+            <div class="container">
+                <div class="row">
+                    <div  class="col-md-6">
+                        <div class="header-top-content">
+                            <ul class="nav nav-pills navbar-left">
+                                <li><a href="#"><i class="pe-7s-call"></i><span>123-123456789</span></a></li>
+                                <li><a href="#"><i class="pe-7s-mail"></i><span> info@dokancom</span></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="alert alert-success">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Praesent suscipit sem vel ipsum elementum venenatis. 
-                            </div>
-                          <div class="team-member">
-                            <img src="assets/img/team/2.png" class="img-circle"  alt="">
-                             <h3><strong>WEB DESIGNER</strong></h3>
-                        </div>
-                        
-                      
-                    </div>
-                   <div class="col-md-3 col-sm-3 col-xs-6">
-                         <div class="alert alert-warning">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Praesent suscipit sem vel ipsum elementum venenatis. 
-                            </div>
-                        <div class="team-member">
-                            <img src="assets/img/team/4.png" class="img-circle"   alt="">
-                            <h3><strong>SUPPORT MANAGER </strong></h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="alert alert-info">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Praesent suscipit sem vel ipsum elementum venenatis. 
-                            </div>
-                        <div class="team-member">
-                            
-                            <img src="assets/img/team/3.png" class="img-circle"    alt="">
-                            <h3><strong>SUPPORT MANAGER </strong></h3>
-                        </div>
-                    </div>
-                  
-                
-            </div>
-           
-
-        </div>
-    </section>
-    <!--END ABOUT SECTION-->
-
-     <!--CLIENT TESTIMONIALS SECTION-->
-       <section id="clients-testimonial">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12 ">
-                    <h1>Clients Testimonials</h1>
- <div id="carousel-example" class="carousel slide" data-ride="carousel">
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example" data-slide-to="1"></li>
-                        <li data-target="#carousel-example" data-slide-to="2"></li>
-                    </ol>
-
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="container center">
-                                <div class="col-md-6 col-md-offset-3 slide-custom">
-                                   
-                                    <h4><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit onec molestie non sem vel condimentum. <i class="fa fa-quote-right"></i></h4>
-                                     <div class="user-img pull-right">
-						<img src="assets/img/user.gif" alt="" class="img-u image-responsive"  />
-					</div>
-                                    <h5 class="pull-right"><strong class="c-black">Lorem Dolor</strong></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="container center">
-                                <div class="col-md-6 col-md-offset-3 slide-custom">
-                                    <h4> <i class="fa fa-quote-left"></i> Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. <i class="fa fa-quote-right"></i></h4>
-                                         <div class="user-img pull-right">
-						<img src="assets/img/user2.png" alt="" class="img-u image-responsive"  />
-					</div>
-                                    <h5 class="pull-right"><strong class="c-black">Faucibus luctus</strong></h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="container center">
-                                <div class="col-md-6 col-md-offset-3 slide-custom">
-                                    <h4><i class="fa fa-quote-left"></i>Sed ultricies, libero ut adipiscing fringilla, ante elit luctus lorem, a egestas dui metus a arcu condimentum. <i class="fa fa-quote-right"></i></h4>
-                                        <div class="user-img pull-right">
-						<img src="assets/img/user.gif" alt="" class="img-u image-responsive"  />
-					</div>
-                                    <h5 class="pull-right"><strong class="c-black">Sed ultricies</strong></h5>
-                                </div>
-                            </div>
+                    <div  class="col-md-6">
+                        <div class="header-top-menu">
+                            <ul class="nav nav-pills navbar-right">
+                                <li><a href="#">My Account</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#"><i class="pe-7s-lock"></i>Login/Register</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                    </div>
-                </div>
-            </div>
-           </section>
-     <!--END CLIENT TESTIMONIALS SECTION-->
-    <!--PRICE SECTION-->
-     <section class="for-full-back color-bg-one" id="pricing">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Pricing Options</h1>
-
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h5>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                       
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="price-sec" class="for-full-back color-white">
-        <div class="container">
-            <div class="row text-center g-pad-bottom">
-               
-                    
-                   <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="panel-danger">
-                            <div class="panel-heading">
-                             <h4>MEDIUM PLAN</h4> 
-                            </div>
-                            <div class="alert alert-danger">
-
-                               <ul class="plan">      
-                                   <li class="price"><strong>10</strong> <i class="fa fa-dollar"></i></li>                       
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                           </ul>
-                                <a href="#" class="btn btn-danger ">BUY NOW</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="panel-warning">
-                            <div class="panel-heading">
-                             <h4>MEDIUM PLAN</h4> 
-                            </div>
-                            <div class="alert alert-warning">
-
-                               <ul class="plan">      
-                                   <li class="price"><strong>25</strong> <i class="fa fa-dollar"></i></li>                       
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                           </ul>
-                                 <a href="#" class="btn btn-warning ">BUY NOW</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                <div class="col-md-3 col-sm-3 col-xs-6 ">
-                        <div class="panel-success">
-                            <div class="panel-heading">
-                             <h4>ECONOMY PLAN</h4> 
-                            </div>
-                            <div class="alert alert-success">
-
-                               <ul class="plan">      
-                                   <li class="price"><strong>50</strong> <i class="fa fa-dollar"></i></li>                       
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                           </ul>
-                                 <a href="#" class="btn btn-success ">BUY NOW</a>
-                            </div>
-                           
-                        </div>
-                    </div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="panel-info ">
-                            <div class="panel-heading">
-                             <h4>ADVANCE PLAN</h4> 
-                            </div>
-                            <div class=" alert alert-info">
-
-                               <ul class="plan">      
-                                   <li class="price"><strong>125</strong> <i class="fa fa-dollar"></i></li>                       
-                            <li><strong>52</strong> Emails</li>
-                            <li><strong>50 GB</strong> Space</li>
-                            <li><strong>Free</strong> Support</li>
-                           </ul>
-                                 <a href="#" class="btn btn-info ">BUY NOW</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-
-               
-            </div>
-
-
-        </div>
-    </section>
-    <!-- END PRICE SECTION-->
-
-  
-    <!--STATS SECTION-->
-    <section>
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-3 ">
-                    <div class="stats-div">
-                        <h3>5000+ </h3>
-                        <h4>Projects</h4>
-                    </div>
-                </div>
-
-
-                <div class="col-md-3 ">
-                    <div class="stats-div">
-                        <h3>205+ </h3>
-                        <h4>Countries</h4>
-                    </div>
-
-                </div>
-                <div class="col-md-3 ">
-
-                    <div class="stats-div">
-                        <h3>1300+ </h3>
-                        <h4>Offices</h4>
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="stats-div">
-                        <h3>2400+ </h3>
-                        <h4>Clients</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--END STATS SECTION-->
-
-    <!--CONTACT SECTION-->
-    <section class="for-full-back color-bg-one" id="contact">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Contact</h1>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-8 col-md-offset-2 ">
-                        <h5>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="for-full-back color-white text-center" id="contact-inner">
-        <div class="container">
-           
-                    <h1>GET IN TOUCH</h1>
-                    
-                    <form>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" required="required" placeholder="Email address">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" required="required" class="form-control" style="min-height:200px;" placeholder="Message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit Request</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                     <div id="add">
-                         <br />
-                                                New Your City, USA
-                         <br />
-                         Call: + 123-00-89-00
-                        <br />
-                         E-mail: info@binarytheme.com
-                    </div>
-              
-        </div>
-    </section>
-    <!--END CONTACT SECTION-->
-    <!--SOCIAL SECTION-->
-    <section id="social-section">
-        <div class="container">
-            <div class="row text-center">
-                    <div class="col-md-4 scl scl-dark-bk">
-					<h4>FACEBOOK</h4>
-					<p class="text-center"><a href="#"><i class="fa fa-facebook fa-5x"></i></a></p>
-				</div>
-				<div class="col-md-4 scl">
-					<h4 >TWITTER</h4>
-					<p class="text-center"><a href="#"><i class="fa fa-twitter fa-5x"></i></a></p>
-				</div>
-				<div class="col-md-4 scl scl-dark-bk">
-					<h4 >GOOGLE +</h4>
-					<p class="text-center"><a href="#"><i class="fa fa-google-plus fa-5x"></i></a></p>
-				</div>
-                    </div>
             </div>
         </section>
-  
-    <!--END SOCIAL SECTION-->
-    <!--FOOTER SECTION -->
-    <div class="for-full-back" id="footer">
-        2014 www.yourdomain.com | All Right Reserved | by: <a href="http://binarytheme.com" target="_blank" style="color:#fff" >www.binarytheme.com</a>
-         
-    </div>
-    <!-- END FOOTER SECTION -->
 
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
-    <script src="assets/plugins/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP CORE SCRIPT   -->
-    <script src="assets/plugins/bootstrap.js"></script>  
-    <!-- VEGAS SLIDESHOW SCRIPTS -->
-    <script src="assets/plugins/vegas/jquery.vegas.min.js"></script>
-     <!-- SCROLL SCRIPTS -->
-    <script src="assets/plugins/jquery.easing.min.js"></script>
-    <!-- CUSTOM SCRIPTS -->
-    <script src="assets/js/custom.js"></script>
+        <header class="header-section">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><b>M</b>art</a>
+                    </div>
 
-</body>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">page</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right cart-menu">
+                        <li><a href="#" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><span> Cart -$0&nbsp;</span> <span class="shoping-cart">0</span></a></li>
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+
+        <section class="search-section">
+            <div class="container">
+                <div class="row subscribe-from">
+                    <div class="col-md-12">
+                        <form class="form-inline col-md-12 wow fadeInDown animated">
+                            <div class="form-group">
+                                <input type="email" class="form-control subscribe" id="email" placeholder="Search...">
+                                <button class="suscribe-btn" ><i class="pe-7s-search"></i></button>
+                            </div>
+                        </form><!-- end /. form -->
+                    </div>
+                </div><!-- end of/. row -->
+            </div><!-- end of /.container -->
+        </section><!-- end of /.news letter section -->
+
+        <section class="slider-section">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators slider-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/slider.jpg" width="1648" height="600" alt="">
+                        <div class="carousel-caption">
+                            <h2>DRESSES <b>&</b> JEANS</h2>
+                            <h3>FROM OURFAMOUS BRANDS <Span>SALE</Span></h3>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/slider.jpg" width="1648" height="600" alt="">
+                        <div class="carousel-caption">
+                            <h2>DRESSES <b>&</b> JEANS</h2>
+                            <h3>FROM OURFAMOUS BRANDS <Span>SALE</Span></h3>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <img src="images/slider.jpg" width="1648" height="600" alt="">
+                        <div class="carousel-caption">
+                            <h2>DRESSES <b>&</b> JEANS</h2>
+                            <h3>FROM OURFAMOUS BRANDS <Span>SALE</Span></h3>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="pe-7s-angle-left glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="pe-7s-angle-right glyphicon-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+        <section class="service-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <i class="pe-7s-settings"></i>
+                            <h3>SETTING</h3>
+                            <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <i class="pe-7s-safe"></i>
+                            <h3>MONEY BACK</h3>
+                            <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <i class="pe-7s-global"></i>
+                            <h3>WORLDWIDE SHIPPING</h3>
+                            <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInRight animated" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <i class="pe-7s-headphones"></i>
+                            <h3>Online support</h3>
+                            <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="new-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>NEW COLLECTION</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 wow fadeInLeft animated" data-wow-delay="0.2s">
+                        <div class="product-item">
+                            <img src="images/1.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Blue Tshirt</h3>
+                                    <span>$26</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInLeft animated" data-wow-delay="0.4s">
+                        <div class="product-item">
+                            <img src="images/2.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>WOMAN shirt</h3>
+                                    <span>$31</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInLeft animated" data-wow-delay="0.6s">
+                        <div class="product-item">
+                            <img src="images/3.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>YELLOW Tshirt</h3>
+                                    <span>$21</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInLeft animated" data-wow-delay="0.8s">
+                        <div class="product-item">
+                            <img src="images/4.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$56</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>FEATURED PRODUCTS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="filter-menu">
+                            <ul class="button-group sort-button-group">
+                                <li class="button active" data-category="all">All<span>8</span></li>
+                                <li class="button" data-category="cat-1">Dresses and Suits<span>2</span></li>
+                                <li class="button" data-category="cat-2">Accessories<span>2</span></li>
+                                <li class="button" data-category="cat-3">Miscellaneous<span>4</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row featured isotope">
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-3 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product1.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="new-item">New</a>
+                                <a href="#" class="sell-item">Sell</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$26</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-2 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product2.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="new-item">New</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$21</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-1 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product3.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="new-item">New</a>
+                                <a href="#" class="sell-item">Sell</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$31</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-3 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product4.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="sell-item">Sell</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$56</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-2 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product5.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="sell-item">Sell</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$26</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-3 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product6.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="new-item">New</a>
+                                <a href="#" class="sell-item">Sell</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$36</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-1 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product7.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="new-item">New</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$56</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 cat-3 featured-items isotope-item">
+                        <div class="product-item">
+                            <img src="images/product8.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="sell-meta">
+                                <a href="#" class="sell-item">Sell</a>
+                            </div>
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$66</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow fadeInDown animated ">
+                        <h1>END OF SEASON SALE</h1>
+                        <h2>Up to 35% off Women's Denim</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-seller-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>BEST SELLERS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 wow fadeInDown animated" data-wow-delay="0.2s">
+                        <div class="product-item">
+                            <img src="images/1.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Blue Tshirt</h3>
+                                    <span>$26</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInDown animated" data-wow-delay="0.4s">
+                        <div class="product-item">
+                            <img src="images/2.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>WOMAN shirt</h3>
+                                    <span>$31</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInDown animated" data-wow-delay="0.6s">
+                        <div class="product-item">
+                            <img src="images/3.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>YELLOW Tshirt</h3>
+                                    <span>$21</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeInDown animated" data-wow-delay="0.8s">
+                        <div class="product-item">
+                            <img src="images/4.png" class="img-responsive" width="255" height="322" alt="">
+                            <div class="product-hover">
+                                <div class="product-meta">
+                                    <a href="#"><i class="pe-7s-like"></i></a>
+                                    <a href="#"><i class="pe-7s-shuffle"></i></a>
+                                    <a href="#"><i class="pe-7s-clock"></i></a>
+                                    <a href="#"><i class="pe-7s-cart"></i>Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product-title">
+                                <a href="#">
+                                    <h3>Cool lingerie</h3>
+                                    <span>$56</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="review-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>customer review</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="feedback" class="carousel slide feedback" data-ride="feedback">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/member1.png" width="320" height="439" alt="">
+                                <div class="carousel-caption">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+                                    <h3>- Olivia -</h3>
+                                    <span>Melbour, Aus</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/member2.png" width="320" height="439" alt="">
+                                <div class="carousel-caption">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+                                    <h3>- Olivia -</h3>
+                                    <span>Melbour, Aus</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/member3.png" width="320" height="439" alt="">
+                                <div class="carousel-caption">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+                                    <h3>- Olivia -</h3>
+                                    <span>Melbour, Aus</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators review-controlar">
+                            <li data-target="#feedback" data-slide-to="0" class="active">
+                                <img src="images/member1.png" width="320" height="439" alt="">
+                            </li>
+                            <li data-target="#feedback" data-slide-to="1">
+                                <img src="images/member2.png" width="320" height="439" alt="">
+                            </li>
+                            <li data-target="#feedback" data-slide-to="2">
+                                <img src="images/member3.png" width="320" height="439" alt="">
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-letter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="titie-section white wow fadeInDown animated ">
+                            <h1>NEWSLETTER</h1>
+                        </div>
+                        <p>Follow a collection of news & promotions</p>
+                    </div>
+                </div>
+                <div class="row subscribe-from">
+                    <form class="form-inline col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1  wow fadeInDown animated">
+                        <div class="form-group">
+                            <input type="email" class="form-control subscribe" id="email" placeholder="Enter your email">
+                            <button class="suscribe-btn" ><i class="pe-7s-next"></i></button>
+                        </div>
+                    </form><!-- end /. form -->
+                </div><!-- end of/. row -->
+            </div><!-- end of /.container -->
+        </section><!-- end of /.news letter section -->
+
+        <section class="client-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>our partner</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="client" class="row owl-carousel owl-theme client-area">
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_01.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_02.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_03.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_04.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_01.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_02.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_03.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-12 item">
+                        <a href="#">
+                            <img src="images/client_04.jpg" class="img-responsive" width="300" height="200" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="customNavigation works-navigation">
+                    <a class="btn-work works-prev"><i class="pe-7s-angle-left"></i></a>
+                    <a class="btn-work works-next"><i class="pe-7s-angle-right"></i></a>
+                </div><!-- end of /.client navigation -->
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>Latest News</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-sm-4 wow fadeInDown animated" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <a href="#"><img src="images/blog1.jpg" width="350" height="262" alt=""></a>
+                            <h3>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </h3>
+                            <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeInDown animated" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <a href="#"><img src="images/blog2.jpg" width="350" height="262" alt=""></a>
+                            <h3>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </h3>
+                            <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                            <a href="#">Read More</a>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeInDown animated" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <a href="#"><img src="images/blog3.jpg" width="350" height="262" alt=""></a>
+                            <h3>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </h3>
+                            <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="titie-section wow fadeInDown animated ">
+                            <h1>GET IN TOUCH</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 wow fadeInLeft animated">
+                        <div class="left-content">
+                            <h1>Do<span>k</span>an</h1>
+                            <h3>We'd love To Meet You In Person Or Via The Web!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel nulla sapien. Class aptent tacitiaptent taciti sociosqu ad lit himenaeos. Suspendisse massa urna, luctus ut vestibulum necs et, vulputate quis urna. Donec at commodo erat.</p>
+                            <div class="contact-info">
+                                <p><b>Main Office:</b> 123 Elm St. New York City, NY</p>
+                                <p><b>Phone:</b> 1.555.555.5555</p>
+                                <p><b>Email:</b> info@yourdomain.com</p>
+                            </div>
+                            <div class="social-media">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInRight animated">
+                        <form action="" method="" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Website URL">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="Your Message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <input type="submit" class="contact-submit" value="Send" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="center">All Rights Reserved &copy; Mart | Designed <a href="https://www.behance.net/speeedsam" target="_blank" >Shah Zobayer Ahmed</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JQUERY -->
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
 </html>
